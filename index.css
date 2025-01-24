@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque", Sans-serif;
+}
+.main-start {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sec1-h {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 7rem;
+}
+.sec1-h img{
+    width:200px;
+}
+.side-content{
+    max-width:600px;
+}
+.banner img{
+    width:100%;
+    height:auto;
+}
+
+/* sect-2 */
+
+.content {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+.content h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #005555;
+}
+.content p {
+    text-align: center;
+    max-width: 900px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.content button {
+    padding: 15px 60px;
+    background: #008080;
+    border: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.sec-2 {
+    margin-top: 4rem;
+    padding: 15px;
+    margin-top: 3rem;
+}
+
+.heading-2 h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #005555;
+    margin-bottom: 28px;
+}
+
+.sec-2 ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.sec-2 ul li {
+    padding: 20px;
+    box-shadow: 0 4px 8px #c6cbd7;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    max-width:400px;
+    list-style: none;
+}
+.img-li {
+    display: flex
+;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.img-li p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #008080;
+    font-weight: 700;
+}
+.img-li img {
+    border-radius: 50%;
+    width: 100px;
+}
+.li-content p {
+    margin-top: 1rem;
+    max-width: 350px;
+    text-align: center;
+    font-weight: 300;
+}
+/*  */
+.section-3 h2 {
+    margin: 20px 0;
+}
+.sec-3_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 750px;
+}
+
+.sec-3_bottom ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #008080;
+}
+.last-line {
+    text-align: center;
+    margin-top: 2rem;
+}
+.footer-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width:30%;
+}
+
+.footer-img img {
+    width: 100px;
+    height: auto;
+}
